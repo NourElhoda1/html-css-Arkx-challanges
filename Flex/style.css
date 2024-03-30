@@ -1,0 +1,144 @@
+#table{
+    background-color: rgb(123, 233, 132);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+body{
+    margin: 0px;
+}
+td{
+  width: 55px;
+  height: 60px;
+  padding-left: 44px;
+}
+.img{
+    background-color: white;
+    width: 150px;
+    height: 60px;
+    padding-left: 5%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+#background{
+    background-image: url(foto.jpg);
+    background-size: 1050px 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(123, 233, 132);
+   top:66px ;
+   position: absolute;
+}
+#coblock{
+    background-color:rgb(123, 233, 132) ;
+    width: 300px;
+    height:304px;
+    margin: 14%;
+    margin-left:  55.6%;
+    position:absolute ;
+    opacity: .6;
+}
+#block{
+    background-color: white;
+    width: 400px;
+    height: 250px;
+   margin: 14%;
+   margin-left:  63%;
+    padding: 2%;
+    position:absolute ;
+    box-shadow:0px 0px 10px rgb(87, 165, 93) ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+
+}
+h1{
+    color: rgb(100, 100, 100);
+    line-height: 0.9 ;
+}
+h1::before { 
+    content: " ";
+    position: absolute;
+    width: 24%;
+    height:3%;
+    background-color: rgb(123, 233, 132) ;
+    top: 38px;
+    height: -10px;
+    z-index: -1;
+  }
+#learn{
+    background-color: rgb(123, 233, 132);
+    color: white;
+    border:none;
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    top: 279px;
+    left: 130px;
+    box-shadow:0px 0px 10px rgb(87, 165, 93) ;
+}
+#learn:hover{
+    background-color: rgb(52, 122, 57);
+}
+.logo{
+    width: 20px;
+    height: 20px;
+    
+}
+#logo{
+    margin: 41%;
+    margin-left:  77%;
+}
+#logotd{
+    width: 5px;
+    height: 5px;
+}
+#all{
+    position: absolute;
+    display: inline-flex;
+    top: 700px;
+   width: 1000px;
+    margin: 4%;
+    margin-left: 160px;
+   
+    color: gray;
+
+}
+#d1{
+   width: 400px; 
+   margin-left: 30px;
+  
+
+}
+#d2{
+    padding-left:4%;
+    padding:4%;
+    width: 400px; 
+    margin-left: 30px;
+    text-align: center;
+}
+#d3{
+    padding:4%;
+    width: 400px; 
+    margin-left: 30px;
+    text-align: center;
+
+}
+#services{
+    background-color: rgb(123, 233, 132);
+    color: white;
+    border:none;
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    top: 150px;
+    left: 30Ppx;
+}
+#services:hover{
+    background-color: rgb(52, 122, 57);
+}
